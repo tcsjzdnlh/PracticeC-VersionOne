@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="sources">
+      <UniqueIdentifier>{8bd25d4e-656f-4cd6-9495-fa19f3cce9af}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Test_declare_function.cpp" />
+    <ClCompile Include="Test_overload_function.cpp" />
+    <ClCompile Include="Test_function_parameter.cpp" />
+    <ClCompile Include="Test_return_type.cpp" />
+    <ClCompile Include="Test_debug_assistant.cpp" />
+    <ClCompile Include="Test_excercise.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Test.h" />
+  </ItemGroup>
+</Project>

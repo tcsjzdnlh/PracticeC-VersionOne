@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\StdLibraryArithmetic">
+      <UniqueIdentifier>{9634f887-dcec-47e5-aa60-faa7c0301abf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\VirtualFunction">
+      <UniqueIdentifier>{34c58eec-0fb8-485a-8b64-a791808a2b40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TestTemplate">
+      <UniqueIdentifier>{b893271e-5520-4e98-ac29-f94e20447ed7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ReturnTemplateObject">
+      <UniqueIdentifier>{05dc7fda-9143-40ca-89db-d1dfd966c490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Explicit">
+      <UniqueIdentifier>{6950272e-7ad6-45d2-afa7-9cd14cfc2323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shared_ptr">
+      <UniqueIdentifier>{82278bf1-b46d-48fe-8b8f-45c6d31f0086}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Test_TrivialCopyAssignment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_StaticObjectConstructor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_list(splice).cpp">
+      <Filter>Source Files\StdLibraryArithmetic</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_StdPartition.cpp">
+      <Filter>Source Files\StdLibraryArithmetic</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_bind.cpp">
+      <Filter>Source Files\StdLibraryArithmetic</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualFunction.cpp">
+      <Filter>Source Files\VirtualFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_Template.cpp">
+      <Filter>Source Files\TestTemplate</Filter>
+    </ClCompile>
+    <ClCompile Include="Books.cpp">
+      <Filter>Source Files\TestTemplate</Filter>
+    </ClCompile>
+    <ClCompile Include="Fyling.cpp">
+      <Filter>Source Files\TestTemplate</Filter>
+    </ClCompile>
+    <ClCompile Include="Property.cpp">
+      <Filter>Source Files\TestTemplate</Filter>
+    </ClCompile>
+    <ClCompile Include="SmartMachine.cpp">
+      <Filter>Source Files\TestTemplate</Filter>
+    </ClCompile>
+    <ClCompile Include="Propertys.cpp">
+      <Filter>Source Files\TestTemplate</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometrys.cpp">
+      <Filter>Source Files\TestTemplate</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_ReturnTemplateObject.cpp">
+      <Filter>Source Files\ReturnTemplateObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Explicit.cpp">
+      <Filter>Source Files\Explicit</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_shared_ptr.cpp">
+      <Filter>Source Files\shared_ptr</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Test.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartMachine.h">
+      <Filter>Source Files\TestTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="Property.h">
+      <Filter>Source Files\TestTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="Flying.h">
+      <Filter>Source Files\TestTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="Books.h">
+      <Filter>Source Files\TestTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="Propertys.h">
+      <Filter>Source Files\TestTemplate</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometrys.h">
+      <Filter>Source Files\TestTemplate</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Parts">
+      <UniqueIdentifier>{35538fc7-7c78-40ad-b521-7b78164d88bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{5d1af782-6985-42d2-8778-84fe03ed345d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CodePath">
+      <UniqueIdentifier>{13f9dbe4-6eef-41e3-ba4f-3874b7f99562}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Test.h">
+      <Filter>Parts</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>CodePath</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_operator_type.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

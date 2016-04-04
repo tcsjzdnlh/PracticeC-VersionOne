@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="CodePath">
+      <UniqueIdentifier>{b9eab28d-5c21-4a23-9104-026c0ecd0ffd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts">
+      <UniqueIdentifier>{31edfc31-a66e-4080-bf40-b0e12e82fe91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{5b829417-5b8d-47cb-9bf6-97c72014bf8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parts\TemplateInstantControl">
+      <UniqueIdentifier>{05cfa72b-664c-4e4a-8307-1401a9f8616f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>CodePath</Filter>
+    </ClCompile>
+    <ClCompile Include="Tes_template.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Book.cpp">
+      <Filter>Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="TemplateInstanceControl.cpp">
+      <Filter>Parts\TemplateInstantControl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Test.h">
+      <Filter>Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="Book.h">
+      <Filter>Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="template_friend.h">
+      <Filter>Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="CHuaxue.h">
+      <Filter>Parts\TemplateInstantControl</Filter>
+    </ClInclude>
+    <ClInclude Include="CLishi.h">
+      <Filter>Parts\TemplateInstantControl</Filter>
+    </ClInclude>
+    <ClInclude Include="CShuxue.h">
+      <Filter>Parts\TemplateInstantControl</Filter>
+    </ClInclude>
+    <ClInclude Include="CWuli.h">
+      <Filter>Parts\TemplateInstantControl</Filter>
+    </ClInclude>
+    <ClInclude Include="CYuwen.h">
+      <Filter>Parts\TemplateInstantControl</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
